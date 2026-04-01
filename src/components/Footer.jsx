@@ -90,7 +90,7 @@ export default function Footer() {
             ))}
 
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/919927195492"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
