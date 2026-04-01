@@ -11,7 +11,7 @@ export default function ContactForm() {
     const msg = encodeURIComponent(
       `Hi TiffinWala! 🍱\n\nName: ${form.name}\nPhone: ${form.phone}\nAddress: ${form.address}\nPlan: ${form.plan}\nMessage: ${form.message}`
     )
-    window.open(`https://wa.me/919999999999?text=${msg}`, '_blank')
+    window.open(`https://wa.me/91818884739?text=${msg}`, '_blank')
     setSubmitted(true)
   }
 
