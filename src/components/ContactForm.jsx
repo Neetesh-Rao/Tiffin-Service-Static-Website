@@ -11,7 +11,7 @@ export default function ContactForm() {
     const msg = encodeURIComponent(
       `Hi TiffinWala! 🍱\n\nName: ${form.name}\nPhone: ${form.phone}\nAddress: ${form.address}\nPlan: ${form.plan}\nMessage: ${form.message}`
     )
-    window.open(`https://wa.me/91818884739?text=${msg}`, '_blank')
+    window.open(`https://wa.me/919927195492?text=${msg}`, '_blank')
     setSubmitted(true)
   }
 
@@ -54,7 +54,7 @@ export default function ContactForm() {
 
             {/* Contact Info Cards */}
             {[
-              { icon: '📱', label: 'WhatsApp / Call', value: '+91 99999 99999', link: 'https://wa.me/91818884739' },
+              { icon: '📱', label: 'WhatsApp / Call', value: '+91 99999 99999', link: 'https://wa.me/919927195492' },
               { icon: '📧', label: 'Email', value: 'tiffinwala@gmail.com', link: 'mailto:tiffinwala@gmail.com' },
               { icon: '📍', label: 'Service Area', value: 'Greater Noida, Noida', link: null },
               { icon: '🕐', label: 'Delivery Timings', value: 'Lunch 1PM • Dinner 8PM', link: null },
